@@ -1,0 +1,2848 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c6b53908547e45d8bdbf3c054f65f38d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c6b53908547e45d8bdbf3c054f65f38d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c6b53908547e45d8bdbf3c054f65f38d = L.map(
+        'map_c6b53908547e45d8bdbf3c054f65f38d', {
+        center: [26.365191, 50.095044],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_696cbae883f9452ba1768f5501f85df0 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+    
+        var marker_4603d0c4a12d458f9dc7e4d4771f57f4 = L.marker(
+            [26.36519098, 50.09504381],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_118bb4c0536c408990ef7978615565b0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c63ab47305104bfc976b84d07214d691 = $(`<div id="html_c63ab47305104bfc976b84d07214d691" style="width: 100.0%; height: 100.0%;">أورينتال رزيدنس الدمام</div>`)[0];
+                popup_118bb4c0536c408990ef7978615565b0.setContent(html_c63ab47305104bfc976b84d07214d691);
+            
+
+            marker_4603d0c4a12d458f9dc7e4d4771f57f4.bindPopup(popup_118bb4c0536c408990ef7978615565b0)
+            ;
+
+            
+        
+    
+        var marker_46a16de7c61c47c499a00e42df227e54 = L.marker(
+            [26.43583466, 50.08783398],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_70b72e73fda747e8b6fcd01099130b46 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d528044d1d5446dc9ff872f3b9b0d4d7 = $(`<div id="html_d528044d1d5446dc9ff872f3b9b0d4d7" style="width: 100.0%; height: 100.0%;">Sendan Residence</div>`)[0];
+                popup_70b72e73fda747e8b6fcd01099130b46.setContent(html_d528044d1d5446dc9ff872f3b9b0d4d7);
+            
+
+            marker_46a16de7c61c47c499a00e42df227e54.bindPopup(popup_70b72e73fda747e8b6fcd01099130b46)
+            ;
+
+            
+        
+    
+        var marker_2275d59131ea442a9105de8008a9ec33 = L.marker(
+            [26.4071976, 50.13829708],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_949a658642b4453eb0280c8f11b57e7e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_66d677dc5f3c4616a2dea3192cae86ec = $(`<div id="html_66d677dc5f3c4616a2dea3192cae86ec" style="width: 100.0%; height: 100.0%;">فندق نوفوتيل بزنس بارك الدمام</div>`)[0];
+                popup_949a658642b4453eb0280c8f11b57e7e.setContent(html_66d677dc5f3c4616a2dea3192cae86ec);
+            
+
+            marker_2275d59131ea442a9105de8008a9ec33.bindPopup(popup_949a658642b4453eb0280c8f11b57e7e)
+            ;
+
+            
+        
+    
+        var marker_2dd9177d6f694e108a12df8cbb722c5a = L.marker(
+            [26.23354, 49.987051],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_363bdf7d2e6e41a2a7f9537f6e248377 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1667992ec9694ce1862ab6890cba60a5 = $(`<div id="html_1667992ec9694ce1862ab6890cba60a5" style="width: 100.0%; height: 100.0%;">Radisson Hotel & Apartments Dammam Industry City</div>`)[0];
+                popup_363bdf7d2e6e41a2a7f9537f6e248377.setContent(html_1667992ec9694ce1862ab6890cba60a5);
+            
+
+            marker_2dd9177d6f694e108a12df8cbb722c5a.bindPopup(popup_363bdf7d2e6e41a2a7f9537f6e248377)
+            ;
+
+            
+        
+    
+        var marker_ff4a61c0994d47f680f5da1cce385d9d = L.marker(
+            [26.45184358, 50.12025118],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_756f602ef47a4efea011b5376404e743 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0e62dbed2d82433b92bbc35e5406215b = $(`<div id="html_0e62dbed2d82433b92bbc35e5406215b" style="width: 100.0%; height: 100.0%;">فندق ومركز المؤتمرات شيراتون الدمام</div>`)[0];
+                popup_756f602ef47a4efea011b5376404e743.setContent(html_0e62dbed2d82433b92bbc35e5406215b);
+            
+
+            marker_ff4a61c0994d47f680f5da1cce385d9d.bindPopup(popup_756f602ef47a4efea011b5376404e743)
+            ;
+
+            
+        
+    
+        var marker_e450d91dd3b04e8e9d389fc6ed8e9462 = L.marker(
+            [26.47016624, 50.12401392],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_ffe857399ae74e4b9ecbbfe956a42a29 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c0717a0e48148e8acef71f11a1ecdd9 = $(`<div id="html_0c0717a0e48148e8acef71f11a1ecdd9" style="width: 100.0%; height: 100.0%;">Braira Al Dammam</div>`)[0];
+                popup_ffe857399ae74e4b9ecbbfe956a42a29.setContent(html_0c0717a0e48148e8acef71f11a1ecdd9);
+            
+
+            marker_e450d91dd3b04e8e9d389fc6ed8e9462.bindPopup(popup_ffe857399ae74e4b9ecbbfe956a42a29)
+            ;
+
+            
+        
+    
+        var marker_660c5c48bb734f5084cd58c2f9bd65df = L.marker(
+            [26.4402995, 50.08311496],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_6739f4b9e4134dcab9c1be1355114d81 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_335ddd5e441b4575afa4ebaa09fc4cdc = $(`<div id="html_335ddd5e441b4575afa4ebaa09fc4cdc" style="width: 100.0%; height: 100.0%;">Jood Apartments</div>`)[0];
+                popup_6739f4b9e4134dcab9c1be1355114d81.setContent(html_335ddd5e441b4575afa4ebaa09fc4cdc);
+            
+
+            marker_660c5c48bb734f5084cd58c2f9bd65df.bindPopup(popup_6739f4b9e4134dcab9c1be1355114d81)
+            ;
+
+            
+        
+    
+        var marker_256e2e283272489f9b083f39552fc16b = L.marker(
+            [26.46846971, 50.08631587],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_f5e533c42c0948b786ed185ecbef130e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fd07e1d0fdf44cda85631346f1b82c00 = $(`<div id="html_fd07e1d0fdf44cda85631346f1b82c00" style="width: 100.0%; height: 100.0%;">Howard Johnson Dammam Hotel</div>`)[0];
+                popup_f5e533c42c0948b786ed185ecbef130e.setContent(html_fd07e1d0fdf44cda85631346f1b82c00);
+            
+
+            marker_256e2e283272489f9b083f39552fc16b.bindPopup(popup_f5e533c42c0948b786ed185ecbef130e)
+            ;
+
+            
+        
+    
+        var marker_b91f54305e234f80b6d5a3a786f23d7b = L.marker(
+            [26.40765884, 50.06022602],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_51510829a1d346f99292ec36523b0d23 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47d2e35f951243b39249a859ea4cea0c = $(`<div id="html_47d2e35f951243b39249a859ea4cea0c" style="width: 100.0%; height: 100.0%;">فندق لافونا</div>`)[0];
+                popup_51510829a1d346f99292ec36523b0d23.setContent(html_47d2e35f951243b39249a859ea4cea0c);
+            
+
+            marker_b91f54305e234f80b6d5a3a786f23d7b.bindPopup(popup_51510829a1d346f99292ec36523b0d23)
+            ;
+
+            
+        
+    
+        var marker_4eb2583d61ac4b7abf462f65c0e483b4 = L.marker(
+            [26.45931171, 50.09107679],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_36334e58586547b5857aea58fcaff417 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_df7d37934e0a4073a0048c5ed9ec34ca = $(`<div id="html_df7d37934e0a4073a0048c5ed9ec34ca" style="width: 100.0%; height: 100.0%;">Ramada by Wyndham Dammam Khaleej Road</div>`)[0];
+                popup_36334e58586547b5857aea58fcaff417.setContent(html_df7d37934e0a4073a0048c5ed9ec34ca);
+            
+
+            marker_4eb2583d61ac4b7abf462f65c0e483b4.bindPopup(popup_36334e58586547b5857aea58fcaff417)
+            ;
+
+            
+        
+    
+        var marker_23858371e29c4f4ca525e3d34e0b6a1e = L.marker(
+            [26.43977188, 50.0600768],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_50d082aab3424f23b45a26c7fa6c2c3e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2aa40cc545c94a60ae75104590809649 = $(`<div id="html_2aa40cc545c94a60ae75104590809649" style="width: 100.0%; height: 100.0%;">Q Economy Rooms ألغرف ألأقتصاديه</div>`)[0];
+                popup_50d082aab3424f23b45a26c7fa6c2c3e.setContent(html_2aa40cc545c94a60ae75104590809649);
+            
+
+            marker_23858371e29c4f4ca525e3d34e0b6a1e.bindPopup(popup_50d082aab3424f23b45a26c7fa6c2c3e)
+            ;
+
+            
+        
+    
+        var marker_7a4554d673ce4549bb46b0e9910e3ae8 = L.marker(
+            [26.4518374, 50.1030597],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c3e2f6c5260a4edba3cbc3121b10bef4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dfd884d8fe634c60a7a1f954a387eaff = $(`<div id="html_dfd884d8fe634c60a7a1f954a387eaff" style="width: 100.0%; height: 100.0%;">Marina Alsalaam</div>`)[0];
+                popup_c3e2f6c5260a4edba3cbc3121b10bef4.setContent(html_dfd884d8fe634c60a7a1f954a387eaff);
+            
+
+            marker_7a4554d673ce4549bb46b0e9910e3ae8.bindPopup(popup_c3e2f6c5260a4edba3cbc3121b10bef4)
+            ;
+
+            
+        
+    
+        var marker_7f2570c31d9b402ca1652ab436298753 = L.marker(
+            [26.41898929, 50.01892269],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7f25555cced14bc8b175246ab6a055d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6fce9986f74c45a38d7a74f3c73eacc7 = $(`<div id="html_6fce9986f74c45a38d7a74f3c73eacc7" style="width: 100.0%; height: 100.0%;">Hona Al Holm Furnished Units</div>`)[0];
+                popup_7f25555cced14bc8b175246ab6a055d9.setContent(html_6fce9986f74c45a38d7a74f3c73eacc7);
+            
+
+            marker_7f2570c31d9b402ca1652ab436298753.bindPopup(popup_7f25555cced14bc8b175246ab6a055d9)
+            ;
+
+            
+        
+    
+        var marker_70da72cea1cd4d1ab82737ac9d0701e6 = L.marker(
+            [26.4288274, 50.10366037],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_718cdfa50cd34e47b86933d5edc4a839 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_defc03c75602457397294a3b64140469 = $(`<div id="html_defc03c75602457397294a3b64140469" style="width: 100.0%; height: 100.0%;">فندق الدمام بالاس</div>`)[0];
+                popup_718cdfa50cd34e47b86933d5edc4a839.setContent(html_defc03c75602457397294a3b64140469);
+            
+
+            marker_70da72cea1cd4d1ab82737ac9d0701e6.bindPopup(popup_718cdfa50cd34e47b86933d5edc4a839)
+            ;
+
+            
+        
+    
+        var marker_63547cae19f04d36a33172320668e101 = L.marker(
+            [26.36669799, 50.03309794],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8b0df07400fd4ed8b3fc802761098667 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1fe4b31db0a445c2bac41f605ee46080 = $(`<div id="html_1fe4b31db0a445c2bac41f605ee46080" style="width: 100.0%; height: 100.0%;">بيت الايواء</div>`)[0];
+                popup_8b0df07400fd4ed8b3fc802761098667.setContent(html_1fe4b31db0a445c2bac41f605ee46080);
+            
+
+            marker_63547cae19f04d36a33172320668e101.bindPopup(popup_8b0df07400fd4ed8b3fc802761098667)
+            ;
+
+            
+        
+    
+        var marker_de333a504cd24349b4060d0e460ed83f = L.marker(
+            [26.380036, 50.02383641],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c5fecda8e4124a85834a60a7c178d7b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49330a852a7e4471b7e7bd63c8ebb9b4 = $(`<div id="html_49330a852a7e4471b7e7bd63c8ebb9b4" style="width: 100.0%; height: 100.0%;">Durra Taraf 1 Residential</div>`)[0];
+                popup_c5fecda8e4124a85834a60a7c178d7b5.setContent(html_49330a852a7e4471b7e7bd63c8ebb9b4);
+            
+
+            marker_de333a504cd24349b4060d0e460ed83f.bindPopup(popup_c5fecda8e4124a85834a60a7c178d7b5)
+            ;
+
+            
+        
+    
+        var marker_f118743c80e549dd95145bcfc563918f = L.marker(
+            [26.44210829, 50.07758136],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a2fadcb237f343b3a24bb635ba9ae989 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f31b20156a44a80a9e6c6dcef737b4a = $(`<div id="html_5f31b20156a44a80a9e6c6dcef737b4a" style="width: 100.0%; height: 100.0%;">البيت دارك Your Home</div>`)[0];
+                popup_a2fadcb237f343b3a24bb635ba9ae989.setContent(html_5f31b20156a44a80a9e6c6dcef737b4a);
+            
+
+            marker_f118743c80e549dd95145bcfc563918f.bindPopup(popup_a2fadcb237f343b3a24bb635ba9ae989)
+            ;
+
+            
+        
+    
+        var marker_57e6436a6baa40008c9a3560f63a897f = L.marker(
+            [26.45774088, 50.09641515],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3df4c0cb0c6e41959f5308eb910db281 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b639b196939043af9916ac2e3f46b471 = $(`<div id="html_b639b196939043af9916ac2e3f46b471" style="width: 100.0%; height: 100.0%;">فندق جولدن توليب الدمام الكورنيش</div>`)[0];
+                popup_3df4c0cb0c6e41959f5308eb910db281.setContent(html_b639b196939043af9916ac2e3f46b471);
+            
+
+            marker_57e6436a6baa40008c9a3560f63a897f.bindPopup(popup_3df4c0cb0c6e41959f5308eb910db281)
+            ;
+
+            
+        
+    
+        var marker_94543ef9b87246e3b8695b295df06918 = L.marker(
+            [26.36663167, 50.05063154],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_126c19ac7211409dadfb7c967d6837c4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ac1172e04764cca851e06992507750f = $(`<div id="html_9ac1172e04764cca851e06992507750f" style="width: 100.0%; height: 100.0%;">Durra Taraf Residential 2</div>`)[0];
+                popup_126c19ac7211409dadfb7c967d6837c4.setContent(html_9ac1172e04764cca851e06992507750f);
+            
+
+            marker_94543ef9b87246e3b8695b295df06918.bindPopup(popup_126c19ac7211409dadfb7c967d6837c4)
+            ;
+
+            
+        
+    
+        var marker_bfdb203140874401966b79b789749761 = L.marker(
+            [26.4048828, 50.1075773],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e503d17faacb4f4f918e3a1579380b44 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e228fec0add34eeaa5ec099cf16f3e7d = $(`<div id="html_e228fec0add34eeaa5ec099cf16f3e7d" style="width: 100.0%; height: 100.0%;">OYO 427 Nujoom Al Sharqia 2</div>`)[0];
+                popup_e503d17faacb4f4f918e3a1579380b44.setContent(html_e228fec0add34eeaa5ec099cf16f3e7d);
+            
+
+            marker_bfdb203140874401966b79b789749761.bindPopup(popup_e503d17faacb4f4f918e3a1579380b44)
+            ;
+
+            
+        
+    
+        var marker_df983e3eb2f5419fa7f4411250ffc356 = L.marker(
+            [26.39133357, 50.07397041],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_5e1cfd23a2dd46f4b79266cae9684f62 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6228ef99850244e6b1e582f3a987d077 = $(`<div id="html_6228ef99850244e6b1e582f3a987d077" style="width: 100.0%; height: 100.0%;">Lina Park 2</div>`)[0];
+                popup_5e1cfd23a2dd46f4b79266cae9684f62.setContent(html_6228ef99850244e6b1e582f3a987d077);
+            
+
+            marker_df983e3eb2f5419fa7f4411250ffc356.bindPopup(popup_5e1cfd23a2dd46f4b79266cae9684f62)
+            ;
+
+            
+        
+    
+        var marker_6d7169d2374f4564b0af86296339750e = L.marker(
+            [26.4269311, 50.03750771],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_2c4768992b234f9fa176cb54465cdbab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_428e184c28d240b8ba52e04257383c93 = $(`<div id="html_428e184c28d240b8ba52e04257383c93" style="width: 100.0%; height: 100.0%;">Ghosn Al Banafsej Hotel Suites</div>`)[0];
+                popup_2c4768992b234f9fa176cb54465cdbab.setContent(html_428e184c28d240b8ba52e04257383c93);
+            
+
+            marker_6d7169d2374f4564b0af86296339750e.bindPopup(popup_2c4768992b234f9fa176cb54465cdbab)
+            ;
+
+            
+        
+    
+        var marker_d2a2b428d7d94acf998ef1c2291b8007 = L.marker(
+            [26.3699492, 50.05743153],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e05a273b1e4b4a8eaa35a1b164e1b9cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0885bc54bd6a4e98a1600d1ae863cddc = $(`<div id="html_0885bc54bd6a4e98a1600d1ae863cddc" style="width: 100.0%; height: 100.0%;">شقق قصر العنوان الفندقية</div>`)[0];
+                popup_e05a273b1e4b4a8eaa35a1b164e1b9cc.setContent(html_0885bc54bd6a4e98a1600d1ae863cddc);
+            
+
+            marker_d2a2b428d7d94acf998ef1c2291b8007.bindPopup(popup_e05a273b1e4b4a8eaa35a1b164e1b9cc)
+            ;
+
+            
+        
+    
+        var marker_530d6e53567545a991990d479e5737b1 = L.marker(
+            [26.45266325, 50.10591318],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_343b64aabfc04e3e9e615d84d4b670a1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51783ad834b1438989dce92b382df2a9 = $(`<div id="html_51783ad834b1438989dce92b382df2a9" style="width: 100.0%; height: 100.0%;">إجازة للوحدات السكنية  - هوليداي</div>`)[0];
+                popup_343b64aabfc04e3e9e615d84d4b670a1.setContent(html_51783ad834b1438989dce92b382df2a9);
+            
+
+            marker_530d6e53567545a991990d479e5737b1.bindPopup(popup_343b64aabfc04e3e9e615d84d4b670a1)
+            ;
+
+            
+        
+    
+        var marker_0afb4cfe6bb04e6c8bbdbd930215ff04 = L.marker(
+            [26.44035708, 50.0826332],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_0fe69d959b8e4c2dae96b790dda5897f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63ba496817b7400e82108050132df991 = $(`<div id="html_63ba496817b7400e82108050132df991" style="width: 100.0%; height: 100.0%;">العنوان للوحدات الفندقية</div>`)[0];
+                popup_0fe69d959b8e4c2dae96b790dda5897f.setContent(html_63ba496817b7400e82108050132df991);
+            
+
+            marker_0afb4cfe6bb04e6c8bbdbd930215ff04.bindPopup(popup_0fe69d959b8e4c2dae96b790dda5897f)
+            ;
+
+            
+        
+    
+        var marker_25f27b30ee734904b40aaecb9961191a = L.marker(
+            [26.427632, 50.097594],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a6f67d3fce734ad18ead307d8d8959ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_88cd99c07ff94702a40dc9af9096351d = $(`<div id="html_88cd99c07ff94702a40dc9af9096351d" style="width: 100.0%; height: 100.0%;">ويندام جاردن الدمام</div>`)[0];
+                popup_a6f67d3fce734ad18ead307d8d8959ee.setContent(html_88cd99c07ff94702a40dc9af9096351d);
+            
+
+            marker_25f27b30ee734904b40aaecb9961191a.bindPopup(popup_a6f67d3fce734ad18ead307d8d8959ee)
+            ;
+
+            
+        
+    
+        var marker_3470393ef7a742419b2383b42403fdc1 = L.marker(
+            [26.45307805, 50.11676998],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_04c75c8177d74171b5a3ffeb650bcb89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_92cef6cfa5eb4e7ab2f422695a7c4578 = $(`<div id="html_92cef6cfa5eb4e7ab2f422695a7c4578" style="width: 100.0%; height: 100.0%;">TIME Dammam Residence</div>`)[0];
+                popup_04c75c8177d74171b5a3ffeb650bcb89.setContent(html_92cef6cfa5eb4e7ab2f422695a7c4578);
+            
+
+            marker_3470393ef7a742419b2383b42403fdc1.bindPopup(popup_04c75c8177d74171b5a3ffeb650bcb89)
+            ;
+
+            
+        
+    
+        var marker_691935b180f446208c287d4b5505da42 = L.marker(
+            [26.45310979, 50.13079049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_62525b11e12446eb9664d925d6d4afef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b385e51ee5364004933a613db1b93728 = $(`<div id="html_b385e51ee5364004933a613db1b93728" style="width: 100.0%; height: 100.0%;">بارك إن باي راديسون الدمام</div>`)[0];
+                popup_62525b11e12446eb9664d925d6d4afef.setContent(html_b385e51ee5364004933a613db1b93728);
+            
+
+            marker_691935b180f446208c287d4b5505da42.bindPopup(popup_62525b11e12446eb9664d925d6d4afef)
+            ;
+
+            
+        
+    
+        var marker_86102e038c4945068a7e10cba57e496e = L.marker(
+            [26.4852122, 50.1282598],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_005af59df28644f69cc6868f8baadecf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_71b2c170bf0345c592d2a68d177ea791 = $(`<div id="html_71b2c170bf0345c592d2a68d177ea791" style="width: 100.0%; height: 100.0%;">Tripper Inn</div>`)[0];
+                popup_005af59df28644f69cc6868f8baadecf.setContent(html_71b2c170bf0345c592d2a68d177ea791);
+            
+
+            marker_86102e038c4945068a7e10cba57e496e.bindPopup(popup_005af59df28644f69cc6868f8baadecf)
+            ;
+
+            
+        
+    
+        var marker_e78688caff1943a78dbedb6cb824ad97 = L.marker(
+            [26.36979481, 50.05838325],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3369d4b0abf043dfb9933b9c68cd9778 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5331ff1522b84ee8b75a48ef24de7aac = $(`<div id="html_5331ff1522b84ee8b75a48ef24de7aac" style="width: 100.0%; height: 100.0%;">فندق لافونا طيبة</div>`)[0];
+                popup_3369d4b0abf043dfb9933b9c68cd9778.setContent(html_5331ff1522b84ee8b75a48ef24de7aac);
+            
+
+            marker_e78688caff1943a78dbedb6cb824ad97.bindPopup(popup_3369d4b0abf043dfb9933b9c68cd9778)
+            ;
+
+            
+        
+    
+        var marker_00ade408561747b59789ae11b8e3e053 = L.marker(
+            [26.45286177, 50.12609303],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_36c172372d0d429cb7cfedfb22167acf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e59f286d9cf545bea123b4ee44e31603 = $(`<div id="html_e59f286d9cf545bea123b4ee44e31603" style="width: 100.0%; height: 100.0%;">وثير للأجنحة الفندقية</div>`)[0];
+                popup_36c172372d0d429cb7cfedfb22167acf.setContent(html_e59f286d9cf545bea123b4ee44e31603);
+            
+
+            marker_00ade408561747b59789ae11b8e3e053.bindPopup(popup_36c172372d0d429cb7cfedfb22167acf)
+            ;
+
+            
+        
+    
+        var marker_75dc12dff85b494399d01feabf1be42a = L.marker(
+            [26.47204013, 50.08634913],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a2b03dc6b41e4d859b0227a7cdca8f8b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd6aae152bdf487b8aa98aec5ae2a2d8 = $(`<div id="html_dd6aae152bdf487b8aa98aec5ae2a2d8" style="width: 100.0%; height: 100.0%;">جولدن جاردن الكورنيش للأجنحة الفندقية</div>`)[0];
+                popup_a2b03dc6b41e4d859b0227a7cdca8f8b.setContent(html_dd6aae152bdf487b8aa98aec5ae2a2d8);
+            
+
+            marker_75dc12dff85b494399d01feabf1be42a.bindPopup(popup_a2b03dc6b41e4d859b0227a7cdca8f8b)
+            ;
+
+            
+        
+    
+        var marker_1e87f01513454dc3aadc525683c86fc7 = L.marker(
+            [26.4580818, 50.08034674],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_4bfe0107245b4c74b2a5cc6b17810f34 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_39934898b5f84f6fbd993926b4ed0cf0 = $(`<div id="html_39934898b5f84f6fbd993926b4ed0cf0" style="width: 100.0%; height: 100.0%;">نافا 2 للوحدات السكنية</div>`)[0];
+                popup_4bfe0107245b4c74b2a5cc6b17810f34.setContent(html_39934898b5f84f6fbd993926b4ed0cf0);
+            
+
+            marker_1e87f01513454dc3aadc525683c86fc7.bindPopup(popup_4bfe0107245b4c74b2a5cc6b17810f34)
+            ;
+
+            
+        
+    
+        var marker_f101d55c1457438ca9be2d537f8f7943 = L.marker(
+            [26.44861484, 50.09618372],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_78de8752328a4ed18ffc2a40eb2f1c02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4078fc46e2e24266a59284ad8937b45e = $(`<div id="html_4078fc46e2e24266a59284ad8937b45e" style="width: 100.0%; height: 100.0%;">Beautiful world houses 88</div>`)[0];
+                popup_78de8752328a4ed18ffc2a40eb2f1c02.setContent(html_4078fc46e2e24266a59284ad8937b45e);
+            
+
+            marker_f101d55c1457438ca9be2d537f8f7943.bindPopup(popup_78de8752328a4ed18ffc2a40eb2f1c02)
+            ;
+
+            
+        
+    
+        var marker_a68fe88db0754553ae04da951a6c3fb9 = L.marker(
+            [26.48499838, 50.12806714],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_19e799853da945698a7a939a66716f6e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c9f79268f4b546229ee46aed65d268d9 = $(`<div id="html_c9f79268f4b546229ee46aed65d268d9" style="width: 100.0%; height: 100.0%;">توليب إن الدمام للاجنحة الفندقية</div>`)[0];
+                popup_19e799853da945698a7a939a66716f6e.setContent(html_c9f79268f4b546229ee46aed65d268d9);
+            
+
+            marker_a68fe88db0754553ae04da951a6c3fb9.bindPopup(popup_19e799853da945698a7a939a66716f6e)
+            ;
+
+            
+        
+    
+        var marker_bd0b9db7fdf643b19e6f0e251d4d6146 = L.marker(
+            [26.43860146, 50.10611594],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_57bb1230a91d4ab2a18a07f6e9ac7c46 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe7a2f6daaaa431caeef958ada37d09c = $(`<div id="html_fe7a2f6daaaa431caeef958ada37d09c" style="width: 100.0%; height: 100.0%;">فندق سويس إنترناشيونال الحمرا</div>`)[0];
+                popup_57bb1230a91d4ab2a18a07f6e9ac7c46.setContent(html_fe7a2f6daaaa431caeef958ada37d09c);
+            
+
+            marker_bd0b9db7fdf643b19e6f0e251d4d6146.bindPopup(popup_57bb1230a91d4ab2a18a07f6e9ac7c46)
+            ;
+
+            
+        
+    
+        var marker_48a07b5e176f4402a99ce24b39a79252 = L.marker(
+            [26.45924185, 50.09366749],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e818928b46af467eb103e04a5ea450ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_62fbfcd4781249d2a42955369b4ef851 = $(`<div id="html_62fbfcd4781249d2a42955369b4ef851" style="width: 100.0%; height: 100.0%;">Naviti By Warwick Dammam</div>`)[0];
+                popup_e818928b46af467eb103e04a5ea450ab.setContent(html_62fbfcd4781249d2a42955369b4ef851);
+            
+
+            marker_48a07b5e176f4402a99ce24b39a79252.bindPopup(popup_e818928b46af467eb103e04a5ea450ab)
+            ;
+
+            
+        
+    
+        var marker_ebe42551f9b44078bdec0d9e7ab2020a = L.marker(
+            [26.46502174, 50.08121967],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_487ba0b97ed64d659b7af9495249ddf0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5965d214bca4784a479157bae061c95 = $(`<div id="html_f5965d214bca4784a479157bae061c95" style="width: 100.0%; height: 100.0%;">أوبن للأجنحة الفندقية</div>`)[0];
+                popup_487ba0b97ed64d659b7af9495249ddf0.setContent(html_f5965d214bca4784a479157bae061c95);
+            
+
+            marker_ebe42551f9b44078bdec0d9e7ab2020a.bindPopup(popup_487ba0b97ed64d659b7af9495249ddf0)
+            ;
+
+            
+        
+    
+        var marker_121b32f31df7471ca3b017d5b6493160 = L.marker(
+            [26.458603, 50.080596],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3a3412eabac1423c9f7dd3054d56ec77 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a1e7138a7a974558b7935a08d6cf8cf7 = $(`<div id="html_a1e7138a7a974558b7935a08d6cf8cf7" style="width: 100.0%; height: 100.0%;">سيتي ريزيدنس للاجنحة الفندقية City Residence Hotel Suites</div>`)[0];
+                popup_3a3412eabac1423c9f7dd3054d56ec77.setContent(html_a1e7138a7a974558b7935a08d6cf8cf7);
+            
+
+            marker_121b32f31df7471ca3b017d5b6493160.bindPopup(popup_3a3412eabac1423c9f7dd3054d56ec77)
+            ;
+
+            
+        
+    
+        var marker_508a4ae9545a454daaded1402504cbf3 = L.marker(
+            [26.45429878, 50.12485915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a7ac0e6207af4ed0aec9df51468528fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e651807f7a5744188bf417c28dd7b9bb = $(`<div id="html_e651807f7a5744188bf417c28dd7b9bb" style="width: 100.0%; height: 100.0%;">نورمينا للأجنحة الفندقية</div>`)[0];
+                popup_a7ac0e6207af4ed0aec9df51468528fc.setContent(html_e651807f7a5744188bf417c28dd7b9bb);
+            
+
+            marker_508a4ae9545a454daaded1402504cbf3.bindPopup(popup_a7ac0e6207af4ed0aec9df51468528fc)
+            ;
+
+            
+        
+    
+        var marker_fb82d15fc2f941468f46ed67a2f23985 = L.marker(
+            [26.37733269, 50.06031453],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_36f20e8d678f4bc2aa0f552b60c79638 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f0ea780938be4a1194c4f9361a4fb764 = $(`<div id="html_f0ea780938be4a1194c4f9361a4fb764" style="width: 100.0%; height: 100.0%;">عروس الفيصلية للوحدات السكنية المفروشة</div>`)[0];
+                popup_36f20e8d678f4bc2aa0f552b60c79638.setContent(html_f0ea780938be4a1194c4f9361a4fb764);
+            
+
+            marker_fb82d15fc2f941468f46ed67a2f23985.bindPopup(popup_36f20e8d678f4bc2aa0f552b60c79638)
+            ;
+
+            
+        
+    
+        var marker_b9c2cf3f12f842c68a0cfc1c55358766 = L.marker(
+            [26.45398801, 50.10390311],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_2ac988883d704ecfaf999df621a33a4a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33371ca6086b4d8abc774fbeecb8e0fc = $(`<div id="html_33371ca6086b4d8abc774fbeecb8e0fc" style="width: 100.0%; height: 100.0%;">غلف ديلمون</div>`)[0];
+                popup_2ac988883d704ecfaf999df621a33a4a.setContent(html_33371ca6086b4d8abc774fbeecb8e0fc);
+            
+
+            marker_b9c2cf3f12f842c68a0cfc1c55358766.bindPopup(popup_2ac988883d704ecfaf999df621a33a4a)
+            ;
+
+            
+        
+    
+        var marker_aae7f82bca2c47208a1f904215128e07 = L.marker(
+            [26.39210216, 50.09146831],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_57e27c26bdd64ac5a4541945b0d801ed = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_82b236157bd94e5d9397a5b94b3a429a = $(`<div id="html_82b236157bd94e5d9397a5b94b3a429a" style="width: 100.0%; height: 100.0%;">فندق مساس الخليج</div>`)[0];
+                popup_57e27c26bdd64ac5a4541945b0d801ed.setContent(html_82b236157bd94e5d9397a5b94b3a429a);
+            
+
+            marker_aae7f82bca2c47208a1f904215128e07.bindPopup(popup_57e27c26bdd64ac5a4541945b0d801ed)
+            ;
+
+            
+        
+    
+        var marker_bdff9541b56a4ce283bc91cffd948c61 = L.marker(
+            [26.35872982, 50.04416227],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3d5f26ccf3f246c4853b8e1011cc75ad = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1f080175de4e4139b11e88caab98b885 = $(`<div id="html_1f080175de4e4139b11e88caab98b885" style="width: 100.0%; height: 100.0%;">لمسة السعادة</div>`)[0];
+                popup_3d5f26ccf3f246c4853b8e1011cc75ad.setContent(html_1f080175de4e4139b11e88caab98b885);
+            
+
+            marker_bdff9541b56a4ce283bc91cffd948c61.bindPopup(popup_3d5f26ccf3f246c4853b8e1011cc75ad)
+            ;
+
+            
+        
+    
+        var marker_19aa30ca9f26496b84240c33464454ed = L.marker(
+            [26.36953722, 50.06701967],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_861a8cdd354b4ace9f0cd4adf32bf717 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5018e66a0f5041b69c45550335a06934 = $(`<div id="html_5018e66a0f5041b69c45550335a06934" style="width: 100.0%; height: 100.0%;">شقق سوات الفندقية</div>`)[0];
+                popup_861a8cdd354b4ace9f0cd4adf32bf717.setContent(html_5018e66a0f5041b69c45550335a06934);
+            
+
+            marker_19aa30ca9f26496b84240c33464454ed.bindPopup(popup_861a8cdd354b4ace9f0cd4adf32bf717)
+            ;
+
+            
+        
+    
+        var marker_4615c74861f3443586c09195701ffd0f = L.marker(
+            [26.47251021, 50.08627082],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c5f266ea655a4ba285abec08221446c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3fc99df34f7b424389a06816ffc60c04 = $(`<div id="html_3fc99df34f7b424389a06816ffc60c04" style="width: 100.0%; height: 100.0%;">كان للوحدات السكنيه المفروشه</div>`)[0];
+                popup_c5f266ea655a4ba285abec08221446c3.setContent(html_3fc99df34f7b424389a06816ffc60c04);
+            
+
+            marker_4615c74861f3443586c09195701ffd0f.bindPopup(popup_c5f266ea655a4ba285abec08221446c3)
+            ;
+
+            
+        
+    
+        var marker_6c38c426638c474fa3d07963a8e429de = L.marker(
+            [26.45403406, 50.12141728],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_bc3e8d30afe24c08b8dc7af5c0951a0b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3cb4d4594094fca9bba14446dbdb94a = $(`<div id="html_f3cb4d4594094fca9bba14446dbdb94a" style="width: 100.0%; height: 100.0%;">بودل الشاطئ</div>`)[0];
+                popup_bc3e8d30afe24c08b8dc7af5c0951a0b.setContent(html_f3cb4d4594094fca9bba14446dbdb94a);
+            
+
+            marker_6c38c426638c474fa3d07963a8e429de.bindPopup(popup_bc3e8d30afe24c08b8dc7af5c0951a0b)
+            ;
+
+            
+        
+    
+        var marker_75ea747842164cc98feed92f4f1910fd = L.marker(
+            [26.432911, 50.04453],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_b86764de9017403288a1b1cd1fae84eb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_958a83063495495d9b9cfa13bbeed766 = $(`<div id="html_958a83063495495d9b9cfa13bbeed766" style="width: 100.0%; height: 100.0%;">the blue Diamond 17</div>`)[0];
+                popup_b86764de9017403288a1b1cd1fae84eb.setContent(html_958a83063495495d9b9cfa13bbeed766);
+            
+
+            marker_75ea747842164cc98feed92f4f1910fd.bindPopup(popup_b86764de9017403288a1b1cd1fae84eb)
+            ;
+
+            
+        
+    
+        var marker_bc77846ab09347cf9f49840e17cee75a = L.marker(
+            [26.43126412, 50.03990131],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_464307d251b34b948c3ab608a2077bbf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e00d452a527e44cf96ceae322f0e68b5 = $(`<div id="html_e00d452a527e44cf96ceae322f0e68b5" style="width: 100.0%; height: 100.0%;">منازل دله للوحدات السكنيه المفروشه</div>`)[0];
+                popup_464307d251b34b948c3ab608a2077bbf.setContent(html_e00d452a527e44cf96ceae322f0e68b5);
+            
+
+            marker_bc77846ab09347cf9f49840e17cee75a.bindPopup(popup_464307d251b34b948c3ab608a2077bbf)
+            ;
+
+            
+        
+    
+        var marker_bbafe2b608b94bcab6d6f220b8ef4353 = L.marker(
+            [26.45418508, 50.13061018],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7d4421322f554caca3f5f92f71138510 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e7a43bc22b740c79c711d15c4614081 = $(`<div id="html_5e7a43bc22b740c79c711d15c4614081" style="width: 100.0%; height: 100.0%;">Boudl Al Corniche</div>`)[0];
+                popup_7d4421322f554caca3f5f92f71138510.setContent(html_5e7a43bc22b740c79c711d15c4614081);
+            
+
+            marker_bbafe2b608b94bcab6d6f220b8ef4353.bindPopup(popup_7d4421322f554caca3f5f92f71138510)
+            ;
+
+            
+        
+    
+        var marker_ec7efc33e0474670aa7a7b242399c93f = L.marker(
+            [26.36711102, 50.03322423],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a94691f1ac4a429fbb64385899f9fcea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2e3c477e207f4e1296c9b9a239936a21 = $(`<div id="html_2e3c477e207f4e1296c9b9a239936a21" style="width: 100.0%; height: 100.0%;">نطوان للوحدات السكنية المفروشة</div>`)[0];
+                popup_a94691f1ac4a429fbb64385899f9fcea.setContent(html_2e3c477e207f4e1296c9b9a239936a21);
+            
+
+            marker_ec7efc33e0474670aa7a7b242399c93f.bindPopup(popup_a94691f1ac4a429fbb64385899f9fcea)
+            ;
+
+            
+        
+    
+        var marker_b8a4a71e4bb54b1b910566f7430adbbc = L.marker(
+            [26.45841727, 50.08132428],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_0c5fd43a857f4432935aa854324a49d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e5adfcc7ace74537a06dc291d56eb114 = $(`<div id="html_e5adfcc7ace74537a06dc291d56eb114" style="width: 100.0%; height: 100.0%;">Eastward Hotel</div>`)[0];
+                popup_0c5fd43a857f4432935aa854324a49d7.setContent(html_e5adfcc7ace74537a06dc291d56eb114);
+            
+
+            marker_b8a4a71e4bb54b1b910566f7430adbbc.bindPopup(popup_0c5fd43a857f4432935aa854324a49d7)
+            ;
+
+            
+        
+    
+        var marker_7c7e5158384f4b00a2fa9bc592e5b079 = L.marker(
+            [26.37023003, 50.05620143],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c7f32782a6904c6483e2496741b33762 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_878722da1b104afbaa70f2b7b79e0956 = $(`<div id="html_878722da1b104afbaa70f2b7b79e0956" style="width: 100.0%; height: 100.0%;">The Gate Hotel and Apartments ذا قيت فندق وشقق</div>`)[0];
+                popup_c7f32782a6904c6483e2496741b33762.setContent(html_878722da1b104afbaa70f2b7b79e0956);
+            
+
+            marker_7c7e5158384f4b00a2fa9bc592e5b079.bindPopup(popup_c7f32782a6904c6483e2496741b33762)
+            ;
+
+            
+        
+    
+        var marker_c8ebcd36b6c2417dbda4f9347a2a7af3 = L.marker(
+            [26.45172298, 50.10492906],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e4220685022a4ca5a70ef9691684afec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89dae236dbf949139d2bf25e8a71480d = $(`<div id="html_89dae236dbf949139d2bf25e8a71480d" style="width: 100.0%; height: 100.0%;">Sahari Palace-Dammam</div>`)[0];
+                popup_e4220685022a4ca5a70ef9691684afec.setContent(html_89dae236dbf949139d2bf25e8a71480d);
+            
+
+            marker_c8ebcd36b6c2417dbda4f9347a2a7af3.bindPopup(popup_e4220685022a4ca5a70ef9691684afec)
+            ;
+
+            
+        
+    
+        var marker_b5343eb392844dbabf2ee3acaba0981a = L.marker(
+            [26.41735136, 50.09145527],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_68211253b99540089873bf40ae6a042a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05868270bc7f4c51a124e8e300684bde = $(`<div id="html_05868270bc7f4c51a124e8e300684bde" style="width: 100.0%; height: 100.0%;">بروج السالمية</div>`)[0];
+                popup_68211253b99540089873bf40ae6a042a.setContent(html_05868270bc7f4c51a124e8e300684bde);
+            
+
+            marker_b5343eb392844dbabf2ee3acaba0981a.bindPopup(popup_68211253b99540089873bf40ae6a042a)
+            ;
+
+            
+        
+    
+        var marker_11f86445ac254f23a7a8a17644fcb058 = L.marker(
+            [26.36497422, 50.07618651],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_cf62feaab990404d8d9bcee6698e1839 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8dbee81f14814a6eaf0f0db7de9ce379 = $(`<div id="html_8dbee81f14814a6eaf0f0db7de9ce379" style="width: 100.0%; height: 100.0%;">تاج الخليج للوحدات السكنية</div>`)[0];
+                popup_cf62feaab990404d8d9bcee6698e1839.setContent(html_8dbee81f14814a6eaf0f0db7de9ce379);
+            
+
+            marker_11f86445ac254f23a7a8a17644fcb058.bindPopup(popup_cf62feaab990404d8d9bcee6698e1839)
+            ;
+
+            
+        
+    
+        var marker_9a51ef80ef21418da6b442d8ed588055 = L.marker(
+            [26.36713255, 50.17817712],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_ef3f3051d2a44c318fea7b727381f3d2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6e9eaa54f4b4453cb74551d1856c67a0 = $(`<div id="html_6e9eaa54f4b4453cb74551d1856c67a0" style="width: 100.0%; height: 100.0%;">فندق كمبينسكي العثمان الخبر</div>`)[0];
+                popup_ef3f3051d2a44c318fea7b727381f3d2.setContent(html_6e9eaa54f4b4453cb74551d1856c67a0);
+            
+
+            marker_9a51ef80ef21418da6b442d8ed588055.bindPopup(popup_ef3f3051d2a44c318fea7b727381f3d2)
+            ;
+
+            
+        
+    
+        var marker_5caecfee17da470e9120ed96860d06e2 = L.marker(
+            [26.34057601, 50.17928123],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_62aa9c3676b64fb6a04db16e4955bf22 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bd149e9d57454336839ce3d0caf6e676 = $(`<div id="html_bd149e9d57454336839ce3d0caf6e676" style="width: 100.0%; height: 100.0%;">فندق هوليداي إن الخبر</div>`)[0];
+                popup_62aa9c3676b64fb6a04db16e4955bf22.setContent(html_bd149e9d57454336839ce3d0caf6e676);
+            
+
+            marker_5caecfee17da470e9120ed96860d06e2.bindPopup(popup_62aa9c3676b64fb6a04db16e4955bf22)
+            ;
+
+            
+        
+    
+        var marker_0f4eb86cf17b4004b3162325f33ef8ad = L.marker(
+            [26.34342932, 50.19525568],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_1efef7540e28457687306442ae62e2ce = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6355f52732274f608b458da56101841b = $(`<div id="html_6355f52732274f608b458da56101841b" style="width: 100.0%; height: 100.0%;">ستايبريدج سويتس الخبر</div>`)[0];
+                popup_1efef7540e28457687306442ae62e2ce.setContent(html_6355f52732274f608b458da56101841b);
+            
+
+            marker_0f4eb86cf17b4004b3162325f33ef8ad.bindPopup(popup_1efef7540e28457687306442ae62e2ce)
+            ;
+
+            
+        
+    
+        var marker_be90889a92a3404793568cee8d95decf = L.marker(
+            [26.30479581, 50.17425084],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_9cca0c520485428fa71ee1cbc8f56965 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d00abf09cb3f43288dbbba2bfbf95563 = $(`<div id="html_d00abf09cb3f43288dbbba2bfbf95563" style="width: 100.0%; height: 100.0%;">فندق الوفت الظهران</div>`)[0];
+                popup_9cca0c520485428fa71ee1cbc8f56965.setContent(html_d00abf09cb3f43288dbbba2bfbf95563);
+            
+
+            marker_be90889a92a3404793568cee8d95decf.bindPopup(popup_9cca0c520485428fa71ee1cbc8f56965)
+            ;
+
+            
+        
+    
+        var marker_d5eab627fca143e4b0d7a8f71c843f50 = L.marker(
+            [26.30544029, 50.17463231],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_33a5f89fd99346e7807192a33effa10d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ba3ddaf359e4700ae14dbdb9789c88f = $(`<div id="html_5ba3ddaf359e4700ae14dbdb9789c88f" style="width: 100.0%; height: 100.0%;">فندق زارا كونتينينتال</div>`)[0];
+                popup_33a5f89fd99346e7807192a33effa10d.setContent(html_5ba3ddaf359e4700ae14dbdb9789c88f);
+            
+
+            marker_d5eab627fca143e4b0d7a8f71c843f50.bindPopup(popup_33a5f89fd99346e7807192a33effa10d)
+            ;
+
+            
+        
+    
+        var marker_9de93eb64a754f82a56c78ef3824d524 = L.marker(
+            [26.30697888, 50.17575064],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_404f6814061c4c6db9c54e2e6f89921b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_15d2ece4f67a4431801bfe712f624c2a = $(`<div id="html_15d2ece4f67a4431801bfe712f624c2a" style="width: 100.0%; height: 100.0%;">هيلتون جاردن ان الخبر</div>`)[0];
+                popup_404f6814061c4c6db9c54e2e6f89921b.setContent(html_15d2ece4f67a4431801bfe712f624c2a);
+            
+
+            marker_9de93eb64a754f82a56c78ef3824d524.bindPopup(popup_404f6814061c4c6db9c54e2e6f89921b)
+            ;
+
+            
+        
+    
+        var marker_099b67e3b78f4a7e9b77ccdff9d7aee0 = L.marker(
+            [26.32918181, 50.21106005],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_9d0a7145c1a14247af36fec77b90724d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9d1654adfb0a47aca5781947707c1156 = $(`<div id="html_9d1654adfb0a47aca5781947707c1156" style="width: 100.0%; height: 100.0%;">فندق بارك إن الخبر</div>`)[0];
+                popup_9d0a7145c1a14247af36fec77b90724d.setContent(html_9d1654adfb0a47aca5781947707c1156);
+            
+
+            marker_099b67e3b78f4a7e9b77ccdff9d7aee0.bindPopup(popup_9d0a7145c1a14247af36fec77b90724d)
+            ;
+
+            
+        
+    
+        var marker_27315f9cc2af4d4ca26cf9cbc759d365 = L.marker(
+            [26.30413947, 50.17463028],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_452afdb0b6d84a2aaefcd08ed2e8703c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bbe45ba53fca453c829708097113eb9e = $(`<div id="html_bbe45ba53fca453c829708097113eb9e" style="width: 100.0%; height: 100.0%;">فندق هيلتون دبل تري الظهران</div>`)[0];
+                popup_452afdb0b6d84a2aaefcd08ed2e8703c.setContent(html_bbe45ba53fca453c829708097113eb9e);
+            
+
+            marker_27315f9cc2af4d4ca26cf9cbc759d365.bindPopup(popup_452afdb0b6d84a2aaefcd08ed2e8703c)
+            ;
+
+            
+        
+    
+        var marker_78616413b0604933beff8db44ca4121c = L.marker(
+            [26.31684404, 50.21699309],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8f9a62d615bb4ea38271a2f1c6b303cb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_010ee606e1b94fcdad07be74b42699a6 = $(`<div id="html_010ee606e1b94fcdad07be74b42699a6" style="width: 100.0%; height: 100.0%;">فندق هوليداي إن كورنيش الخبر</div>`)[0];
+                popup_8f9a62d615bb4ea38271a2f1c6b303cb.setContent(html_010ee606e1b94fcdad07be74b42699a6);
+            
+
+            marker_78616413b0604933beff8db44ca4121c.bindPopup(popup_8f9a62d615bb4ea38271a2f1c6b303cb)
+            ;
+
+            
+        
+    
+        var marker_8782312df7b94f12bb71d2308af5b62a = L.marker(
+            [26.30610151, 50.17508894],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_36d1c3f5ea5d430ab647b1bc0e7341a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3b74668d005f4fbb92154efdb5cef622 = $(`<div id="html_3b74668d005f4fbb92154efdb5cef622" style="width: 100.0%; height: 100.0%;">فندق أسوار بوتيك</div>`)[0];
+                popup_36d1c3f5ea5d430ab647b1bc0e7341a2.setContent(html_3b74668d005f4fbb92154efdb5cef622);
+            
+
+            marker_8782312df7b94f12bb71d2308af5b62a.bindPopup(popup_36d1c3f5ea5d430ab647b1bc0e7341a2)
+            ;
+
+            
+        
+    
+        var marker_407d8a48653a43afafdd9233af0dad50 = L.marker(
+            [26.30584142, 50.17753382],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_52790f4718794962b4a5e34a1f4f6e8e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_50d41ec8ceb5428ba4795d89544d2999 = $(`<div id="html_50d41ec8ceb5428ba4795d89544d2999" style="width: 100.0%; height: 100.0%;">فندق راديسون بلو الظهران</div>`)[0];
+                popup_52790f4718794962b4a5e34a1f4f6e8e.setContent(html_50d41ec8ceb5428ba4795d89544d2999);
+            
+
+            marker_407d8a48653a43afafdd9233af0dad50.bindPopup(popup_52790f4718794962b4a5e34a1f4f6e8e)
+            ;
+
+            
+        
+    
+        var marker_d704200af2d1451e9910a15ccb36f84d = L.marker(
+            [26.303864, 50.17431],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c162f5682b7b4a9c9d9f52251446d356 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4c701ac16a9848b8a8c58a6c1d1ad470 = $(`<div id="html_4c701ac16a9848b8a8c58a6c1d1ad470" style="width: 100.0%; height: 100.0%;">راديسون بلو ريزيدنس الظهران</div>`)[0];
+                popup_c162f5682b7b4a9c9d9f52251446d356.setContent(html_4c701ac16a9848b8a8c58a6c1d1ad470);
+            
+
+            marker_d704200af2d1451e9910a15ccb36f84d.bindPopup(popup_c162f5682b7b4a9c9d9f52251446d356)
+            ;
+
+            
+        
+    
+        var marker_3dc7350a7ff94776af48d0526f8606df = L.marker(
+            [26.30418065, 50.17905593],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8578b84454c14a459bbe15f8e5154244 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e273620c9d24589ad935c7289461d1a = $(`<div id="html_5e273620c9d24589ad935c7289461d1a" style="width: 100.0%; height: 100.0%;">اسوار العليا للاجنحة الفندقيه</div>`)[0];
+                popup_8578b84454c14a459bbe15f8e5154244.setContent(html_5e273620c9d24589ad935c7289461d1a);
+            
+
+            marker_3dc7350a7ff94776af48d0526f8606df.bindPopup(popup_8578b84454c14a459bbe15f8e5154244)
+            ;
+
+            
+        
+    
+        var marker_a99cdda50d8a47c7beb503ace99ddd5e = L.marker(
+            [26.29338645, 50.19875005],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_868f608b298f4cdea520f529ae08882a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4e5e7d75140a4003a296947a786418d3 = $(`<div id="html_4e5e7d75140a4003a296947a786418d3" style="width: 100.0%; height: 100.0%;">هاي اند جاردنز الخبر</div>`)[0];
+                popup_868f608b298f4cdea520f529ae08882a.setContent(html_4e5e7d75140a4003a296947a786418d3);
+            
+
+            marker_a99cdda50d8a47c7beb503ace99ddd5e.bindPopup(popup_868f608b298f4cdea520f529ae08882a)
+            ;
+
+            
+        
+    
+        var marker_ae1ff862066446e382cab2c8e315ae48 = L.marker(
+            [26.27656645, 50.22014737],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_6bcc59a039ae485689ac78210f22fde4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f7f59e1fcae4acda86f83a819fba944 = $(`<div id="html_0f7f59e1fcae4acda86f83a819fba944" style="width: 100.0%; height: 100.0%;">فندق سوفيتل الخبرالكورنيش</div>`)[0];
+                popup_6bcc59a039ae485689ac78210f22fde4.setContent(html_0f7f59e1fcae4acda86f83a819fba944);
+            
+
+            marker_ae1ff862066446e382cab2c8e315ae48.bindPopup(popup_6bcc59a039ae485689ac78210f22fde4)
+            ;
+
+            
+        
+    
+        var marker_7dd840d319e6431188a0ac12791c09bd = L.marker(
+            [26.30167726, 50.22363424],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_45d7d4aec2444b5ba6fdea467cd4d30e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_922903900da7459b8155d550380e65c0 = $(`<div id="html_922903900da7459b8155d550380e65c0" style="width: 100.0%; height: 100.0%;">فندق مريديان الخبر</div>`)[0];
+                popup_45d7d4aec2444b5ba6fdea467cd4d30e.setContent(html_922903900da7459b8155d550380e65c0);
+            
+
+            marker_7dd840d319e6431188a0ac12791c09bd.bindPopup(popup_45d7d4aec2444b5ba6fdea467cd4d30e)
+            ;
+
+            
+        
+    
+        var marker_e57301ebcf3c463486a4df1421633580 = L.marker(
+            [26.322323, 50.216769],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_0250d975ac6f4ea2888475fbece935df = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b67f86963f349068b7c25541d24cbc4 = $(`<div id="html_9b67f86963f349068b7c25541d24cbc4" style="width: 100.0%; height: 100.0%;">فندق موڤنبيك الخُبر</div>`)[0];
+                popup_0250d975ac6f4ea2888475fbece935df.setContent(html_9b67f86963f349068b7c25541d24cbc4);
+            
+
+            marker_e57301ebcf3c463486a4df1421633580.bindPopup(popup_0250d975ac6f4ea2888475fbece935df)
+            ;
+
+            
+        
+    
+        var marker_7b49017addd84c7fa049546966b8dc6d = L.marker(
+            [26.28743195, 50.21844685],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_56fbeaf88df9462996c6ad464d4b1274 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_abecb39035564b798f13024ee8c1a5c0 = $(`<div id="html_abecb39035564b798f13024ee8c1a5c0" style="width: 100.0%; height: 100.0%;">هوثورن الاجنحة الفندقية من ويندام الخبر</div>`)[0];
+                popup_56fbeaf88df9462996c6ad464d4b1274.setContent(html_abecb39035564b798f13024ee8c1a5c0);
+            
+
+            marker_7b49017addd84c7fa049546966b8dc6d.bindPopup(popup_56fbeaf88df9462996c6ad464d4b1274)
+            ;
+
+            
+        
+    
+        var marker_2cc44acf6a4145ca9853bd134b8be225 = L.marker(
+            [26.30518019, 50.17800471],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_ba8d212020c34e7883061495fd8e07ae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d8c62d1d5314a0a83701eef7cbf7fdb = $(`<div id="html_5d8c62d1d5314a0a83701eef7cbf7fdb" style="width: 100.0%; height: 100.0%;">رمادا أنكور الخبر العليا</div>`)[0];
+                popup_ba8d212020c34e7883061495fd8e07ae.setContent(html_5d8c62d1d5314a0a83701eef7cbf7fdb);
+            
+
+            marker_2cc44acf6a4145ca9853bd134b8be225.bindPopup(popup_ba8d212020c34e7883061495fd8e07ae)
+            ;
+
+            
+        
+    
+        var marker_0bed659f2bda4c9cb88d268ca0c3f475 = L.marker(
+            [26.30458069, 50.17849879],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3790e4b5624c472d9dd390b4952c57fe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b9d8e239efda4f95a50f77b18c39d0dd = $(`<div id="html_b9d8e239efda4f95a50f77b18c39d0dd" style="width: 100.0%; height: 100.0%;">لينا بارك 5</div>`)[0];
+                popup_3790e4b5624c472d9dd390b4952c57fe.setContent(html_b9d8e239efda4f95a50f77b18c39d0dd);
+            
+
+            marker_0bed659f2bda4c9cb88d268ca0c3f475.bindPopup(popup_3790e4b5624c472d9dd390b4952c57fe)
+            ;
+
+            
+        
+    
+        var marker_f8b3ec376e6e4e1696305b8d563f9dd8 = L.marker(
+            [26.29861613, 50.17680581],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_351c9d24a67442a6930e0fd5196439be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ccc4cd4805b463f957ea66037a3f8ab = $(`<div id="html_6ccc4cd4805b463f957ea66037a3f8ab" style="width: 100.0%; height: 100.0%;">تولاي بارك</div>`)[0];
+                popup_351c9d24a67442a6930e0fd5196439be.setContent(html_6ccc4cd4805b463f957ea66037a3f8ab);
+            
+
+            marker_f8b3ec376e6e4e1696305b8d563f9dd8.bindPopup(popup_351c9d24a67442a6930e0fd5196439be)
+            ;
+
+            
+        
+    
+        var marker_28f885bc34f94ee5be7155de736be0b4 = L.marker(
+            [26.29381418, 50.17795086],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_afa075582d0b4609a530011e438899be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e4c1ae6f08974a3f9e762f70cdcb9b51 = $(`<div id="html_e4c1ae6f08974a3f9e762f70cdcb9b51" style="width: 100.0%; height: 100.0%;">مكارم العليا</div>`)[0];
+                popup_afa075582d0b4609a530011e438899be.setContent(html_e4c1ae6f08974a3f9e762f70cdcb9b51);
+            
+
+            marker_28f885bc34f94ee5be7155de736be0b4.bindPopup(popup_afa075582d0b4609a530011e438899be)
+            ;
+
+            
+        
+    
+        var marker_afa760e36f684f398879ebcdb9e30686 = L.marker(
+            [26.28871115, 50.19098908],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7372a56a0e444b36938613a417793e95 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1f2695765a4942d3bbdc7f42cd52da33 = $(`<div id="html_1f2695765a4942d3bbdc7f42cd52da33" style="width: 100.0%; height: 100.0%;">برونز بلاس</div>`)[0];
+                popup_7372a56a0e444b36938613a417793e95.setContent(html_1f2695765a4942d3bbdc7f42cd52da33);
+            
+
+            marker_afa760e36f684f398879ebcdb9e30686.bindPopup(popup_7372a56a0e444b36938613a417793e95)
+            ;
+
+            
+        
+    
+        var marker_fa5bbca46af64516a1a104139af5db46 = L.marker(
+            [26.37185136, 50.08681188],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_96265ad7c793445b8660748eec5d8f06 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c3347cb048864b2f86920020d88d8cc9 = $(`<div id="html_c3347cb048864b2f86920020d88d8cc9" style="width: 100.0%; height: 100.0%;">وهج المسك للوحدات السكنية</div>`)[0];
+                popup_96265ad7c793445b8660748eec5d8f06.setContent(html_c3347cb048864b2f86920020d88d8cc9);
+            
+
+            marker_fa5bbca46af64516a1a104139af5db46.bindPopup(popup_96265ad7c793445b8660748eec5d8f06)
+            ;
+
+            
+        
+    
+        var marker_fc9469503698490c90be55be6819d2dd = L.marker(
+            [26.40797925, 50.06030113],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_151e07cb15cd4cb7821e29c7594f0258 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6fea3a544c9f455d8db399d6290981ee = $(`<div id="html_6fea3a544c9f455d8db399d6290981ee" style="width: 100.0%; height: 100.0%;">مسكن الضيافة للوحدات السكنية</div>`)[0];
+                popup_151e07cb15cd4cb7821e29c7594f0258.setContent(html_6fea3a544c9f455d8db399d6290981ee);
+            
+
+            marker_fc9469503698490c90be55be6819d2dd.bindPopup(popup_151e07cb15cd4cb7821e29c7594f0258)
+            ;
+
+            
+        
+    
+        var marker_621ace058dbc4c8683d084d23080cd11 = L.marker(
+            [26.449741, 50.088557],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c31f4d7d8fec475db8a47a21321f2ec4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf7ba891e8564ee8a90886c10a94d802 = $(`<div id="html_cf7ba891e8564ee8a90886c10a94d802" style="width: 100.0%; height: 100.0%;">The origins of Capricorn Arbism 15</div>`)[0];
+                popup_c31f4d7d8fec475db8a47a21321f2ec4.setContent(html_cf7ba891e8564ee8a90886c10a94d802);
+            
+
+            marker_621ace058dbc4c8683d084d23080cd11.bindPopup(popup_c31f4d7d8fec475db8a47a21321f2ec4)
+            ;
+
+            
+        
+    
+        var marker_726aff1d5e8f4f73b5086d44e2ad8d95 = L.marker(
+            [26.37728175, 50.0605259],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8bdf876e3a384b84b6bb0fd195d925f0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b8d4ecaf28e8471483a3ea13408c1995 = $(`<div id="html_b8d4ecaf28e8471483a3ea13408c1995" style="width: 100.0%; height: 100.0%;">مساكن الرها للوحدات السكنية</div>`)[0];
+                popup_8bdf876e3a384b84b6bb0fd195d925f0.setContent(html_b8d4ecaf28e8471483a3ea13408c1995);
+            
+
+            marker_726aff1d5e8f4f73b5086d44e2ad8d95.bindPopup(popup_8bdf876e3a384b84b6bb0fd195d925f0)
+            ;
+
+            
+        
+    
+        var marker_25ecaa300f5f450c9b1b3c88cb4ef21c = L.marker(
+            [26.45479969, 50.12570553],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_0ec6a677f64e4adfb8240873ce4d4093 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_575fbba0f5424ec8aa3f376ae0aef98b = $(`<div id="html_575fbba0f5424ec8aa3f376ae0aef98b" style="width: 100.0%; height: 100.0%;">فندق ريف الشرقية</div>`)[0];
+                popup_0ec6a677f64e4adfb8240873ce4d4093.setContent(html_575fbba0f5424ec8aa3f376ae0aef98b);
+            
+
+            marker_25ecaa300f5f450c9b1b3c88cb4ef21c.bindPopup(popup_0ec6a677f64e4adfb8240873ce4d4093)
+            ;
+
+            
+        
+    
+        var marker_d2a308e4d8f44dc78c0c0eb6e069d108 = L.marker(
+            [26.357241, 50.06158],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_285b6dab566e4309aa5dc86ad5c0b3e2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7dc7f18830524f93acfbee6c8bee510a = $(`<div id="html_7dc7f18830524f93acfbee6c8bee510a" style="width: 100.0%; height: 100.0%;">الدره بلوساندس</div>`)[0];
+                popup_285b6dab566e4309aa5dc86ad5c0b3e2.setContent(html_7dc7f18830524f93acfbee6c8bee510a);
+            
+
+            marker_d2a308e4d8f44dc78c0c0eb6e069d108.bindPopup(popup_285b6dab566e4309aa5dc86ad5c0b3e2)
+            ;
+
+            
+        
+    
+        var marker_8985bed7b6564b0b955219b941fc82e6 = L.marker(
+            [26.43484037, 50.0665721],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_f1fdd1ea8e2d45ac8c7e8bee58bd6901 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3462d3da3f5040d6b0b9ad09b1c85d0d = $(`<div id="html_3462d3da3f5040d6b0b9ad09b1c85d0d" style="width: 100.0%; height: 100.0%;">العييري للوحدات السكنية المفروشة - الدمام 8</div>`)[0];
+                popup_f1fdd1ea8e2d45ac8c7e8bee58bd6901.setContent(html_3462d3da3f5040d6b0b9ad09b1c85d0d);
+            
+
+            marker_8985bed7b6564b0b955219b941fc82e6.bindPopup(popup_f1fdd1ea8e2d45ac8c7e8bee58bd6901)
+            ;
+
+            
+        
+    
+        var marker_2f345f2cbcf846609a905672294ee25b = L.marker(
+            [26.4592952, 50.08818001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7f3a4ee5456f45018d02aedb03e73a50 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2ef69adf145a4dd1bd05b9ba4de69049 = $(`<div id="html_2ef69adf145a4dd1bd05b9ba4de69049" style="width: 100.0%; height: 100.0%;">خليج العز للوحدات المفروشة</div>`)[0];
+                popup_7f3a4ee5456f45018d02aedb03e73a50.setContent(html_2ef69adf145a4dd1bd05b9ba4de69049);
+            
+
+            marker_2f345f2cbcf846609a905672294ee25b.bindPopup(popup_7f3a4ee5456f45018d02aedb03e73a50)
+            ;
+
+            
+        
+    
+        var marker_c470da28166e4c95844d531d4c5b0f12 = L.marker(
+            [26.46422936, 50.08575261],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3f4287e4e50f4f128389def6f7d556cb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7f0f987e94714639ae2a4b90fbbcd44e = $(`<div id="html_7f0f987e94714639ae2a4b90fbbcd44e" style="width: 100.0%; height: 100.0%;">نوفا للوحدات السكنية</div>`)[0];
+                popup_3f4287e4e50f4f128389def6f7d556cb.setContent(html_7f0f987e94714639ae2a4b90fbbcd44e);
+            
+
+            marker_c470da28166e4c95844d531d4c5b0f12.bindPopup(popup_3f4287e4e50f4f128389def6f7d556cb)
+            ;
+
+            
+        
+    
+        var marker_cbf3ac09010c42ca9ec096761a1f7f10 = L.marker(
+            [26.43503119, 50.04648932],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_1542a78e57d4442f9e4957e1179fb69c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5107ee3f0c85468085d45e43866e22af = $(`<div id="html_5107ee3f0c85468085d45e43866e22af" style="width: 100.0%; height: 100.0%;">العييري للوحدات السكنية المفروشة - الدمام 2</div>`)[0];
+                popup_1542a78e57d4442f9e4957e1179fb69c.setContent(html_5107ee3f0c85468085d45e43866e22af);
+            
+
+            marker_cbf3ac09010c42ca9ec096761a1f7f10.bindPopup(popup_1542a78e57d4442f9e4957e1179fb69c)
+            ;
+
+            
+        
+    
+        var marker_37ea8bad69064b0cb6b11bd290bedba9 = L.marker(
+            [26.39444017, 50.0448049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_f782fbd9269d4fa09fbc1dbdd16e65ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_099900558ced45fdbe7d71b64433450c = $(`<div id="html_099900558ced45fdbe7d71b64433450c" style="width: 100.0%; height: 100.0%;">Suite blue</div>`)[0];
+                popup_f782fbd9269d4fa09fbc1dbdd16e65ac.setContent(html_099900558ced45fdbe7d71b64433450c);
+            
+
+            marker_37ea8bad69064b0cb6b11bd290bedba9.bindPopup(popup_f782fbd9269d4fa09fbc1dbdd16e65ac)
+            ;
+
+            
+        
+    
+        var marker_b7c1185dd7bf4e82ae6c8678770528b4 = L.marker(
+            [26.42144109, 50.02676141],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7b19e4e1e573424999890eaadf0bb21b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a2ad0903b60d48cfb7a216f78ab2a7ee = $(`<div id="html_a2ad0903b60d48cfb7a216f78ab2a7ee" style="width: 100.0%; height: 100.0%;">توبتيل للأجنحة الفندقية</div>`)[0];
+                popup_7b19e4e1e573424999890eaadf0bb21b.setContent(html_a2ad0903b60d48cfb7a216f78ab2a7ee);
+            
+
+            marker_b7c1185dd7bf4e82ae6c8678770528b4.bindPopup(popup_7b19e4e1e573424999890eaadf0bb21b)
+            ;
+
+            
+        
+    
+        var marker_eedd345f82ae4e0cbaf35e73bbec8c93 = L.marker(
+            [26.45480513, 50.1253085],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_179c996a8cd54249a5e85b19d256fbab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da97016c1e434c62a5ab25374ee7905d = $(`<div id="html_da97016c1e434c62a5ab25374ee7905d" style="width: 100.0%; height: 100.0%;">رويال جولدن هاوس</div>`)[0];
+                popup_179c996a8cd54249a5e85b19d256fbab.setContent(html_da97016c1e434c62a5ab25374ee7905d);
+            
+
+            marker_eedd345f82ae4e0cbaf35e73bbec8c93.bindPopup(popup_179c996a8cd54249a5e85b19d256fbab)
+            ;
+
+            
+        
+    
+        var marker_c560268ea5774ec5bb82629583cb322b = L.marker(
+            [26.37692138, 50.06080843],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7200393711a0497db5937218f44b2099 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8e034524e54d4cacb50614c31d3acb63 = $(`<div id="html_8e034524e54d4cacb50614c31d3acb63" style="width: 100.0%; height: 100.0%;">أمارا سويتس</div>`)[0];
+                popup_7200393711a0497db5937218f44b2099.setContent(html_8e034524e54d4cacb50614c31d3acb63);
+            
+
+            marker_c560268ea5774ec5bb82629583cb322b.bindPopup(popup_7200393711a0497db5937218f44b2099)
+            ;
+
+            
+        
+    
+        var marker_8c63a95d0c134231be747d51925d60ef = L.marker(
+            [26.41940609, 50.02240976],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_19fc9b72f7ce46b6b93a924f4557a9a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7981b765138f4bf4b2af43b557ff87ff = $(`<div id="html_7981b765138f4bf4b2af43b557ff87ff" style="width: 100.0%; height: 100.0%;">بلو ساندس البيلسان للوحدات السكنية</div>`)[0];
+                popup_19fc9b72f7ce46b6b93a924f4557a9a0.setContent(html_7981b765138f4bf4b2af43b557ff87ff);
+            
+
+            marker_8c63a95d0c134231be747d51925d60ef.bindPopup(popup_19fc9b72f7ce46b6b93a924f4557a9a0)
+            ;
+
+            
+        
+    
+        var marker_e7b26b1606cd44ada222e88a56063716 = L.marker(
+            [26.45496417, 50.12466341],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_42cc283151d74b8289864ac38fcc2921 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_56c7f9dc9ead47129dcee8fae69a7779 = $(`<div id="html_56c7f9dc9ead47129dcee8fae69a7779" style="width: 100.0%; height: 100.0%;">فيلا مسك أجنحة فندقية</div>`)[0];
+                popup_42cc283151d74b8289864ac38fcc2921.setContent(html_56c7f9dc9ead47129dcee8fae69a7779);
+            
+
+            marker_e7b26b1606cd44ada222e88a56063716.bindPopup(popup_42cc283151d74b8289864ac38fcc2921)
+            ;
+
+            
+        
+    
+        var marker_61579a2d502f415ca89e7299db2c6af3 = L.marker(
+            [26.45456194, 50.09683549],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8a060b4ebcc548d48f1e33a392626fb0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea955fe174bc4bcc9f76dff847a5a6d0 = $(`<div id="html_ea955fe174bc4bcc9f76dff847a5a6d0" style="width: 100.0%; height: 100.0%;">منصور بلازا للشقق الفندقية</div>`)[0];
+                popup_8a060b4ebcc548d48f1e33a392626fb0.setContent(html_ea955fe174bc4bcc9f76dff847a5a6d0);
+            
+
+            marker_61579a2d502f415ca89e7299db2c6af3.bindPopup(popup_8a060b4ebcc548d48f1e33a392626fb0)
+            ;
+
+            
+        
+    
+        var marker_d0981b29ece6452bb6a72df61e6461b2 = L.marker(
+            [26.36762083, 50.10546281],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_727221c76d2243d3b8acd73daeeef50f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e714f4e264b64cf6b7596c24c1bec6c9 = $(`<div id="html_e714f4e264b64cf6b7596c24c1bec6c9" style="width: 100.0%; height: 100.0%;">أحلى مكان</div>`)[0];
+                popup_727221c76d2243d3b8acd73daeeef50f.setContent(html_e714f4e264b64cf6b7596c24c1bec6c9);
+            
+
+            marker_d0981b29ece6452bb6a72df61e6461b2.bindPopup(popup_727221c76d2243d3b8acd73daeeef50f)
+            ;
+
+            
+        
+    
+        var marker_5f42554ead9342dd863b3dd85ec0e15b = L.marker(
+            [26.40140978, 50.08571596],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e726741f74764838bdacd150fafd4e47 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f893b3657afb40afad35a6f6ee4df045 = $(`<div id="html_f893b3657afb40afad35a6f6ee4df045" style="width: 100.0%; height: 100.0%;">أمواج الشاطىء للوحدات السكنية المفروشة</div>`)[0];
+                popup_e726741f74764838bdacd150fafd4e47.setContent(html_f893b3657afb40afad35a6f6ee4df045);
+            
+
+            marker_5f42554ead9342dd863b3dd85ec0e15b.bindPopup(popup_e726741f74764838bdacd150fafd4e47)
+            ;
+
+            
+        
+    
+        var marker_f3a16a47a7c341e3a390a4d9da74528b = L.marker(
+            [26.3787243, 50.05935162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_19645d74ecbe4708be3eed73dab2a784 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_65aca25c4ec2439dafde085126825218 = $(`<div id="html_65aca25c4ec2439dafde085126825218" style="width: 100.0%; height: 100.0%;">مسكن الضيافة للشقق الفندقية 2</div>`)[0];
+                popup_19645d74ecbe4708be3eed73dab2a784.setContent(html_65aca25c4ec2439dafde085126825218);
+            
+
+            marker_f3a16a47a7c341e3a390a4d9da74528b.bindPopup(popup_19645d74ecbe4708be3eed73dab2a784)
+            ;
+
+            
+        
+    
+        var marker_41d0b64aac0a488db7dedfe67bce1d57 = L.marker(
+            [26.37931981, 50.05871242],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_fe3dd4d67fd74c10afa171217f4daa57 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b494b2e25bd4a458f4c125d4347a649 = $(`<div id="html_9b494b2e25bd4a458f4c125d4347a649" style="width: 100.0%; height: 100.0%;">كروان الشرق</div>`)[0];
+                popup_fe3dd4d67fd74c10afa171217f4daa57.setContent(html_9b494b2e25bd4a458f4c125d4347a649);
+            
+
+            marker_41d0b64aac0a488db7dedfe67bce1d57.bindPopup(popup_fe3dd4d67fd74c10afa171217f4daa57)
+            ;
+
+            
+        
+    
+        var marker_28a1f33c896a41e5934d86e1a9502b9d = L.marker(
+            [26.28630649, 50.18740296],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_da13cb4ca350439295b8ea46e78c1518 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a85e54dea8164bcf903462add9ad4eb0 = $(`<div id="html_a85e54dea8164bcf903462add9ad4eb0" style="width: 100.0%; height: 100.0%;">كراون بلازا الخبر</div>`)[0];
+                popup_da13cb4ca350439295b8ea46e78c1518.setContent(html_a85e54dea8164bcf903462add9ad4eb0);
+            
+
+            marker_28a1f33c896a41e5934d86e1a9502b9d.bindPopup(popup_da13cb4ca350439295b8ea46e78c1518)
+            ;
+
+            
+        
+    
+        var marker_d94de84c23ee4c27a4e6a87e8b671b57 = L.marker(
+            [26.30386055, 50.21099031],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_15689580a2324c098d49d26b0472502b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b1ff3d6060a64aa8b4046af27c6c98bc = $(`<div id="html_b1ff3d6060a64aa8b4046af27c6c98bc" style="width: 100.0%; height: 100.0%;">فندق انتركونتينينتال الخبر</div>`)[0];
+                popup_15689580a2324c098d49d26b0472502b.setContent(html_b1ff3d6060a64aa8b4046af27c6c98bc);
+            
+
+            marker_d94de84c23ee4c27a4e6a87e8b671b57.bindPopup(popup_15689580a2324c098d49d26b0472502b)
+            ;
+
+            
+        
+    
+        var marker_48b95e7e3f6344128d0499c5fe4ff09d = L.marker(
+            [26.29511512, 50.17842561],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3dbf8e2e98784147bc5d2c03a7a2c9f8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_12389addf2e74b6aa165a109cdee2be2 = $(`<div id="html_12389addf2e74b6aa165a109cdee2be2" style="width: 100.0%; height: 100.0%;">منازل العليا 1</div>`)[0];
+                popup_3dbf8e2e98784147bc5d2c03a7a2c9f8.setContent(html_12389addf2e74b6aa165a109cdee2be2);
+            
+
+            marker_48b95e7e3f6344128d0499c5fe4ff09d.bindPopup(popup_3dbf8e2e98784147bc5d2c03a7a2c9f8)
+            ;
+
+            
+        
+    
+        var marker_bb2ec024118b48b7b6b93c36b09c7fbb = L.marker(
+            [26.29587318, 50.17642066],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e68c792b0e4140cd8d8e13f639fd8b59 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_11238af166d84046a9ee5ef12421831a = $(`<div id="html_11238af166d84046a9ee5ef12421831a" style="width: 100.0%; height: 100.0%;">لينا بارك 4</div>`)[0];
+                popup_e68c792b0e4140cd8d8e13f639fd8b59.setContent(html_11238af166d84046a9ee5ef12421831a);
+            
+
+            marker_bb2ec024118b48b7b6b93c36b09c7fbb.bindPopup(popup_e68c792b0e4140cd8d8e13f639fd8b59)
+            ;
+
+            
+        
+    
+        var marker_3ca88bd914d341548d05e3a6ea8851d5 = L.marker(
+            [26.3042621, 50.19864947],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c3c98b40429644b9a35636d1621d98f7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f67187e541eb4690813f65c219ff536d = $(`<div id="html_f67187e541eb4690813f65c219ff536d" style="width: 100.0%; height: 100.0%;">القصر للأجنحة الفندقية</div>`)[0];
+                popup_c3c98b40429644b9a35636d1621d98f7.setContent(html_f67187e541eb4690813f65c219ff536d);
+            
+
+            marker_3ca88bd914d341548d05e3a6ea8851d5.bindPopup(popup_c3c98b40429644b9a35636d1621d98f7)
+            ;
+
+            
+        
+    
+        var marker_f1524b6cce9d4492bd5ce05c26f96467 = L.marker(
+            [26.290313, 50.176256],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_90aa91efab1640298f7dde4afb132c60 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a482a3f6fd13494ebe2a7d3032fba19e = $(`<div id="html_a482a3f6fd13494ebe2a7d3032fba19e" style="width: 100.0%; height: 100.0%;">فندق وريزيدنس جراند حياة الخبر</div>`)[0];
+                popup_90aa91efab1640298f7dde4afb132c60.setContent(html_a482a3f6fd13494ebe2a7d3032fba19e);
+            
+
+            marker_f1524b6cce9d4492bd5ce05c26f96467.bindPopup(popup_90aa91efab1640298f7dde4afb132c60)
+            ;
+
+            
+        
+    
+        var marker_a8500d9964654da48c6d32a7acd15719 = L.marker(
+            [26.288229, 50.187836],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_408ee11908464a69a42ca622106de540 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c295210951cf45e49af97f3d904d0131 = $(`<div id="html_c295210951cf45e49af97f3d904d0131" style="width: 100.0%; height: 100.0%;">Staybridge Suites - Al Khobar City, an IHG Hotel</div>`)[0];
+                popup_408ee11908464a69a42ca622106de540.setContent(html_c295210951cf45e49af97f3d904d0131);
+            
+
+            marker_a8500d9964654da48c6d32a7acd15719.bindPopup(popup_408ee11908464a69a42ca622106de540)
+            ;
+
+            
+        
+    
+        var marker_3aaf59fb41644f03a0880937733ce09b = L.marker(
+            [26.29312582, 50.17937134],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c3da68b33e394c79847b7d18864aed7d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_23848efa5c5a46028eee4ccefa4782b9 = $(`<div id="html_23848efa5c5a46028eee4ccefa4782b9" style="width: 100.0%; height: 100.0%;">منازل العليا 3- الراشد مول</div>`)[0];
+                popup_c3da68b33e394c79847b7d18864aed7d.setContent(html_23848efa5c5a46028eee4ccefa4782b9);
+            
+
+            marker_3aaf59fb41644f03a0880937733ce09b.bindPopup(popup_c3da68b33e394c79847b7d18864aed7d)
+            ;
+
+            
+        
+    
+        var marker_c74cd6a3f15c45c086bc7940d5282275 = L.marker(
+            [26.29378693, 50.17923447],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_000c9bf7ae75493b91dceef5e069c517 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4e25918512da47b58841ab5d8f9a32c1 = $(`<div id="html_4e25918512da47b58841ab5d8f9a32c1" style="width: 100.0%; height: 100.0%;">اسوار للاجنحة الفندقية</div>`)[0];
+                popup_000c9bf7ae75493b91dceef5e069c517.setContent(html_4e25918512da47b58841ab5d8f9a32c1);
+            
+
+            marker_c74cd6a3f15c45c086bc7940d5282275.bindPopup(popup_000c9bf7ae75493b91dceef5e069c517)
+            ;
+
+            
+        
+    
+        var marker_2c0cf69af76849c2a7a5756db678392a = L.marker(
+            [26.29086096, 50.18069417],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_bc04bc6fd2ad41f9b7c3e6ccd1e01a20 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5dc12d28c2fa43109f26f7c3cfe574af = $(`<div id="html_5dc12d28c2fa43109f26f7c3cfe574af" style="width: 100.0%; height: 100.0%;">Khobar House</div>`)[0];
+                popup_bc04bc6fd2ad41f9b7c3e6ccd1e01a20.setContent(html_5dc12d28c2fa43109f26f7c3cfe574af);
+            
+
+            marker_2c0cf69af76849c2a7a5756db678392a.bindPopup(popup_bc04bc6fd2ad41f9b7c3e6ccd1e01a20)
+            ;
+
+            
+        
+    
+        var marker_7bb830e0f29041ee8dcd70f3cefd3e02 = L.marker(
+            [26.28984145, 50.18975121],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_3eae22e360d0433fa64562bb920187d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da5748e56b2741b7ba907c5cffa1bc11 = $(`<div id="html_da5748e56b2741b7ba907c5cffa1bc11" style="width: 100.0%; height: 100.0%;">Terrace View 1 - Hotel Apartments</div>`)[0];
+                popup_3eae22e360d0433fa64562bb920187d0.setContent(html_da5748e56b2741b7ba907c5cffa1bc11);
+            
+
+            marker_7bb830e0f29041ee8dcd70f3cefd3e02.bindPopup(popup_3eae22e360d0433fa64562bb920187d0)
+            ;
+
+            
+        
+    
+        var marker_f12d3c96759d40a8aafaa85429224f9b = L.marker(
+            [26.292589, 50.178448],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_a3f2b56281a64e08bf7eb1990b384e4d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89a95604fc464a989cbe677afc0ba659 = $(`<div id="html_89a95604fc464a989cbe677afc0ba659" style="width: 100.0%; height: 100.0%;">فندق فيوليت violet hotel</div>`)[0];
+                popup_a3f2b56281a64e08bf7eb1990b384e4d.setContent(html_89a95604fc464a989cbe677afc0ba659);
+            
+
+            marker_f12d3c96759d40a8aafaa85429224f9b.bindPopup(popup_a3f2b56281a64e08bf7eb1990b384e4d)
+            ;
+
+            
+        
+    
+        var marker_d80f3aa88be84e3192ffb3906722d958 = L.marker(
+            [26.29808054, 50.20014579],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_b710fb565cec44208069ed2de455a14e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f26951a48614407098e75fc0a0fc279f = $(`<div id="html_f26951a48614407098e75fc0a0fc279f" style="width: 100.0%; height: 100.0%;">Marriott Executive Apartments Al Khobar</div>`)[0];
+                popup_b710fb565cec44208069ed2de455a14e.setContent(html_f26951a48614407098e75fc0a0fc279f);
+            
+
+            marker_d80f3aa88be84e3192ffb3906722d958.bindPopup(popup_b710fb565cec44208069ed2de455a14e)
+            ;
+
+            
+        
+    
+        var marker_458e1e290d4242e7b9feb0542db1119d = L.marker(
+            [26.2883136, 50.18670825],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_8c8ba14909024bd884b56c0f0714a685 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_944af63e8fc74198907205d98932c2d2 = $(`<div id="html_944af63e8fc74198907205d98932c2d2" style="width: 100.0%; height: 100.0%;">Lina Park</div>`)[0];
+                popup_8c8ba14909024bd884b56c0f0714a685.setContent(html_944af63e8fc74198907205d98932c2d2);
+            
+
+            marker_458e1e290d4242e7b9feb0542db1119d.bindPopup(popup_8c8ba14909024bd884b56c0f0714a685)
+            ;
+
+            
+        
+    
+        var marker_2662aae24ed64633903db3245d1c2989 = L.marker(
+            [26.286398, 50.186531],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_18640f6f4b5249df90388027eb224079 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fec397c62be348de93cfe217eb49c8cb = $(`<div id="html_fec397c62be348de93cfe217eb49c8cb" style="width: 100.0%; height: 100.0%;">voco Al Khobar, an IHG Hotel</div>`)[0];
+                popup_18640f6f4b5249df90388027eb224079.setContent(html_fec397c62be348de93cfe217eb49c8cb);
+            
+
+            marker_2662aae24ed64633903db3245d1c2989.bindPopup(popup_18640f6f4b5249df90388027eb224079)
+            ;
+
+            
+        
+    
+        var marker_bc81717a36fc4b29b399a3f638b4455f = L.marker(
+            [26.288739, 50.190857],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_9dee88e3bbc84ca29323ad856ff40050 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d16a8fe401d141cb8d4b4ca3e92c5a37 = $(`<div id="html_d16a8fe401d141cb8d4b4ca3e92c5a37" style="width: 100.0%; height: 100.0%;">Terrace View 2 - Hotel Apartments</div>`)[0];
+                popup_9dee88e3bbc84ca29323ad856ff40050.setContent(html_d16a8fe401d141cb8d4b4ca3e92c5a37);
+            
+
+            marker_bc81717a36fc4b29b399a3f638b4455f.bindPopup(popup_9dee88e3bbc84ca29323ad856ff40050)
+            ;
+
+            
+        
+    
+        var marker_a067765c1e95454f994f71590091e982 = L.marker(
+            [26.26989287, 50.19292868],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_b93422d89220417f9077a430e1c17e00 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f866dfc61e194efcb3dd02db41099542 = $(`<div id="html_f866dfc61e194efcb3dd02db41099542" style="width: 100.0%; height: 100.0%;">Amjad furnished rooms</div>`)[0];
+                popup_b93422d89220417f9077a430e1c17e00.setContent(html_f866dfc61e194efcb3dd02db41099542);
+            
+
+            marker_a067765c1e95454f994f71590091e982.bindPopup(popup_b93422d89220417f9077a430e1c17e00)
+            ;
+
+            
+        
+    
+        var marker_e2b5dcb02e194e01937a576eb4b833a7 = L.marker(
+            [26.27066709, 50.21512426],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_083fc8254454422aa6788e48ff957858 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe9f49a8beb2454e9e756818b8ef5515 = $(`<div id="html_fe9f49a8beb2454e9e756818b8ef5515" style="width: 100.0%; height: 100.0%;">فندق نورماس</div>`)[0];
+                popup_083fc8254454422aa6788e48ff957858.setContent(html_fe9f49a8beb2454e9e756818b8ef5515);
+            
+
+            marker_e2b5dcb02e194e01937a576eb4b833a7.bindPopup(popup_083fc8254454422aa6788e48ff957858)
+            ;
+
+            
+        
+    
+        var marker_27f0a792a3ad420cb4759d49bb86c882 = L.marker(
+            [26.23380203, 50.19519522],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_c2413a7c33f248f8922f35752cdaf0a0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2510c841f032433fa9ef684c435bf9f1 = $(`<div id="html_2510c841f032433fa9ef684c435bf9f1" style="width: 100.0%; height: 100.0%;">Makarem Residence - Hotel Apartments</div>`)[0];
+                popup_c2413a7c33f248f8922f35752cdaf0a0.setContent(html_2510c841f032433fa9ef684c435bf9f1);
+            
+
+            marker_27f0a792a3ad420cb4759d49bb86c882.bindPopup(popup_c2413a7c33f248f8922f35752cdaf0a0)
+            ;
+
+            
+        
+    
+        var marker_4e30577d4b7b4466a464e311f86468d6 = L.marker(
+            [26.22957632, 50.20439778],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_e0ae27c079aa4f8eaf5c4fb227e09c00 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a81d653d1e084bdca37a6a046b7d6643 = $(`<div id="html_a81d653d1e084bdca37a6a046b7d6643" style="width: 100.0%; height: 100.0%;">أجنحة أشبيلية</div>`)[0];
+                popup_e0ae27c079aa4f8eaf5c4fb227e09c00.setContent(html_a81d653d1e084bdca37a6a046b7d6643);
+            
+
+            marker_4e30577d4b7b4466a464e311f86468d6.bindPopup(popup_e0ae27c079aa4f8eaf5c4fb227e09c00)
+            ;
+
+            
+        
+    
+        var marker_e0b10bccf3df42fb8a312338f7179d0e = L.marker(
+            [26.23154952, 50.19571298],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_c6b53908547e45d8bdbf3c054f65f38d);
+        
+    
+            var popup_7cac58951660422cb9c08146706c7644 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea567790750345599bd24803d57bb414 = $(`<div id="html_ea567790750345599bd24803d57bb414" style="width: 100.0%; height: 100.0%;">Dyafa 6 - Hotel Apartments</div>`)[0];
+                popup_7cac58951660422cb9c08146706c7644.setContent(html_ea567790750345599bd24803d57bb414);
+            
+
+            marker_e0b10bccf3df42fb8a312338f7179d0e.bindPopup(popup_7cac58951660422cb9c08146706c7644)
+            ;
+
+            
+        
+</script>
